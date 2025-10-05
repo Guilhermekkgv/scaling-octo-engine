@@ -984,7 +984,7 @@ Linux.CurrentTab = nil
 Linux.DeviceType = detectDevice()
 Linux.ActiveNotifications = {}
 Linux.NotificationCounter = 0
-Linux.FrameTransparency = 0.75
+Linux.FrameTransparency = 0.65
 Linux.FrameColor = Color3.fromRGB(55, 55, 57)
 Linux.MainFrameColor = Color3.fromRGB(10, 10, 11)
 Linux.ToggleIconAssetId = "rbxassetid://99020804096711"
@@ -3008,7 +3008,7 @@ function Linux.Create(config)
             
             TabText.TextColor3 = Color3.fromRGB(210, 210, 210)
             TabBtn.BackgroundColor3 = Color3.fromRGB(55, 55, 57)
-            TabBtn.BackgroundTransparency = 0.75
+            TabBtn.BackgroundTransparency = 0.65
             TabBtn.BorderSizePixel = 1
             TabBtn.BorderColor3 = Color3.fromRGB(39, 39, 42)
             
